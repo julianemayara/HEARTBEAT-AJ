@@ -1,0 +1,21 @@
+body {
+    background-color: #ffffff;
+    max-width: 100%;
+    margin: 10%;
+}
+
+.heart {
+    text-align: center;
+    color: #fd3e30;
+    font-size: 300px;
+    animation: heartbeat 0.7s infinite alternate;
+    transform-origin: center;
+}
+
+
+@keyframes heartbeat {
+    to {
+        transform: scale(1.9);
+    }
+}
+
